@@ -1,0 +1,23 @@
+CREATE TABLE `parcel_list` (
+  `id` int(11) NOT NULL,
+  `b_status` text DEFAULT NULL,
+  `d_status` text DEFAULT NULL,
+  `sl_no` text DEFAULT NULL,
+  `pis` int(11) DEFAULT NULL,
+  `name` text DEFAULT NULL,
+  `address` text DEFAULT NULL,
+  `number` text DEFAULT NULL,
+  `kg` int(11) DEFAULT NULL,
+  `air_bl_no` text DEFAULT NULL,
+  `lot_no` int(11) DEFAULT NULL,
+  `shipment` int(11) DEFAULT NULL,
+  `party_name` text DEFAULT NULL,
+  `sb_cn_no` text DEFAULT NULL,
+  `data_entry_date` date DEFAULT NULL,
+  `office_entry_date` date DEFAULT NULL,
+  `booking_date` date DEFAULT NULL,
+  `delivered_date` date DEFAULT NULL,
+  `phone_called` text DEFAULT NULL,
+  `last_edited_by` text DEFAULT NULL,
+  `remark` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
